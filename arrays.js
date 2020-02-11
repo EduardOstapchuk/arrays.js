@@ -1,3 +1,5 @@
+"use strict";
+
 //------Work 1--------//
 
 let arr = [],
@@ -30,7 +32,7 @@ console.log(elemZero);
 // ----- Work 2 -----///
 
 let str = "Lorem ipsum dolor sit amet";
-backStr = str
+let backStr = str
   .split("")
   .reverse("")
   .join("");
@@ -60,7 +62,7 @@ for (let i = 0; i <= 20; i++) {
 console.log(arrTwenty);
 // ----- Work 4 - 3 -----///
 
-twoNum = arrTen.concat(arrTwenty);
+let twoNum = arrTen.concat(arrTwenty);
 console.log(twoNum);
 
 // ----- Work 4 - 4 -----///
@@ -84,5 +86,5 @@ console.log(moreLess);
 // ----- Work 5 -----///
 
 let arrTemp = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-randomTemp = arrTemp.sort(() => Math.random() - 0.5);
+let randomTemp = arrTemp.sort(() => Math.random() - 0.5);
 console.log(randomTemp);
