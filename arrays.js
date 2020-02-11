@@ -21,7 +21,8 @@ let numMidIn = Math.ceil(arr.length / 2),
 console.log(numMidIn);
 
 // -------- Work 1-4 ------//
-arr.splice(0, 1, numMidIn);
+arr.shift();
+arr.unshift(numMidIn);
 console.log(arr);
 
 // -------- Work 1-5 ------//
